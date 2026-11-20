@@ -1,0 +1,28 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local model and runtime caches
+.cache/
+models/
+
+# Runtime data
+*.db
+*.db-journal
+data/reviews_multi_aspect_merged_long.csv
+
+# Local configuration and secrets
+.env
+.env.*
+*.log
+
+# OS and editor noise
+.DS_Store
+._*
+.idea/
+.vscode/

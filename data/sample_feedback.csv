@@ -1,0 +1,13 @@
+review_id,text,aspect,sentiment,source,evidence_text,evidence_start,evidence_end
+sample_001,"The booking was simple and the payment went through instantly.",BOOKING_FLOW,positive,gold,,,
+sample_001,"The booking was simple and the payment went through instantly.",PAYMENT,positive,gold,,,
+sample_002,"The checkout was easy, but customer service never answered my call.",BOOKING_FLOW,positive,gold,,,
+sample_002,"The checkout was easy, but customer service never answered my call.",CUSTOMER_SERVICE,negative,gold,,,
+sample_003,页面加载很慢，但客服态度很好。,SITE_SPEED,negative,gold,,,
+sample_003,页面加载很慢，但客服态度很好。,CUSTOMER_SERVICE,positive,gold,,,
+sample_004,退款两个月还没有到账，联系客服也没有人回复。,REFUND_CHANGE,negative,gold,,,
+sample_004,退款两个月还没有到账，联系客服也没有人回复。,CUSTOMER_SERVICE,negative,gold,,,
+sample_005,"The fare rules were clear, and I liked the direct flight options.",PRICE_TRANSPARENCY,positive,gold,,,
+sample_005,"The fare rules were clear, and I liked the direct flight options.",FLIGHT_OPTIONS,positive,gold,,,
+sample_006,支付页面突然多出隐藏费用，非常不透明。,PRICE_TRANSPARENCY,negative,gold,,,
+sample_006,支付页面突然多出隐藏费用，非常不透明。,PAYMENT,negative,gold,,,
