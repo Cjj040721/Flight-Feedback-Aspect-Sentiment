@@ -9,7 +9,7 @@ Zero-shot NLI with Chinese/English keyword support, Transformer + SnowNLP sentim
 [![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Transformers](https://img.shields.io/badge/Transformers-4.39.0-FFBF00)](https://huggingface.co/docs/transformers/index)
 [![Flask](https://img.shields.io/badge/Flask-Web_UI_%2F_API-000000?logo=flask)](https://flask.palletsprojects.com/)
-[![Tests](https://img.shields.io/badge/Tests-8_Passed-2AA887)](#6-verification)
+[![Tests](https://github.com/Cjj040721/Flight-Feedback-Aspect-Sentiment/actions/workflows/tests.yml/badge.svg)](https://github.com/Cjj040721/Flight-Feedback-Aspect-Sentiment/actions/workflows/tests.yml)
 
 [Overview](#1-overview) · [Architecture](#2-processing-pipeline) · [Quick Start](#3-quick-start) · [CLI](#4-cli-workflows) · [Verification](#6-verification) · [Limitations](#7-limitations)
 

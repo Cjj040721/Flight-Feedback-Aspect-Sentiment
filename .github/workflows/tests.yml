@@ -1,0 +1,24 @@
+name: tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  unit-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Compile sources
+        run: python -m compileall -q app.py aspects.py sentiment.py storage.py analysis.py importer.py evaluate_sentiment.py web.py run_server.py tests
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
